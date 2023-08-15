@@ -1,0 +1,257 @@
+.project-page{
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    /* opacity: 0.5; */
+}
+.project-page-buttons{
+    height: 20vh;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.past-upcoming-btn{
+    height: 10vh;
+    background-color: #592bae;
+    width: 30vw;
+    border-radius: 50px;
+    display: flex;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+/* .past-upcoming-btn::after{
+    content: "";
+    height: inherit;
+    width: 15%;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    background-color: black;
+    transform: translateX(-50%);
+} */
+
+
+.past-upcoming-btn a{
+    font-family: "Baloo 2";
+    color: #fff;
+    z-index: 10;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    
+}
+.past-upcoming-btn a:hover{
+    font-size: 19px;
+   
+}
+
+.slider-indicator{
+    content: "";
+    height: inherit;
+    width: 15%;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    background-color: #304055;
+    transform: translateX(-50%);
+    transition: transform 0.4s ease;
+}
+
+.project-main{
+    height: 90vh;
+    width: 100%;
+    /* background-image: url("../designs/project.jpg"); */
+    background-size: cover;
+    background-position-y: -70px;
+    display: flex;
+    position: relative;
+}
+
+.project-main-leftArrowSection{
+    height: inherit;
+    width: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-main-leftArrowSection a img{
+    height: 40px;
+    opacity: 0.2;
+    z-index: 100;
+}
+.project-main-leftArrowSection a img:hover{
+    opacity: 0.7;
+}
+
+.project-container{
+    height: inherit;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    overflow: hidden;
+}
+
+.project-container:nth-child(1){
+    z-index: 100;
+}
+
+.project-section{
+    height: inherit;
+    width: 100%;
+    /* background-color: beige; */
+    /* opacity: 0.5; */
+    display: flex;
+    /* position:absolute; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    overflow: hidden;
+}
+
+
+.project-main-rightArrowSection{
+    height: inherit;
+    width: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-main-rightArrowSection a img{
+    height: 40px;
+    /* transform: rotate(180deg); */
+    opacity: 0.2;
+}
+.project-main-rightArrowSection a img:hover{
+    opacity: 0.7;
+}
+
+
+
+.project-section img{
+    height: 55%;
+}
+
+
+
+.project-section-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth sliding transition */
+}
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    height: 80vh;
+    width: 100vw;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel img {
+    max-width: 40%;
+    height: 55%;
+    position: relative;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 150px;
+    cursor: pointer;
+}
+
+.carousel-prev img{
+    width: 70px;
+    transform: rotate(180deg);
+}
+
+.carousel-next img{
+    width: 70px;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+
+.project-section-content{
+    height: 68%;
+    width: 40%;
+    background-color: #304055;
+    position: relative;
+    left: -40px;
+    border-radius: 20px;
+}
+
+.project-section-content h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+    color : #fff;
+    position: relative;
+    top: 20%;
+    left: 8%;
+}
+.project-section-content p{
+    font-family: "baloo 2";
+    color : #fff;
+    position: relative;
+    font-size: 20px;
+    top: 24%;
+    left: 8%;
+    width: 80%;
+}
+
+.project-section-content a{
+    font-family: "baloo 2";
+    color : #222;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    top: 30%;
+    left: 8%;
+    width: 20%;
+    height: 35px;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+.doggo1{
+    width: 200px;
+    position: absolute;
+    top: 378%;
+    left: 65%;
+    z-index: 10;
+}

@@ -1,0 +1,135 @@
+.heaven-page{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("../designs/heaven.jpg");  */
+    background-size: cover;
+    display: flex;
+}
+
+/* .heaven-page
+{
+    background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(41,137,216,0) 20%,rgba(255,48,48,1) 21%,rgba(255,0,0,1) 100%);
+} */
+
+.heaven-page-left{
+    height: inherit;
+    width: 22%;
+    /* opacity: 0.5; */
+}
+.heaven-page-right{
+    height: inherit;
+    width: 78%;
+    /* background-color: rgb(39, 152, 41); */
+    background-color: #fdf9e4;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+}
+.heaven-page-right-image-1{
+    height: 40%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.heaven-page-right-image-1 img{
+    width: 30%;
+
+}
+
+.heaven-page-right-adoptionNo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 10vw;
+}
+
+.heaven-page-right-adoptionNo div h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 60px;
+}
+.heaven-page-right-adoptionNo p{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.heaven-page-right-image-2{
+    height: 60%;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.heaven-page-right-image-2 div{
+    height: 100%;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heaven-page-right-image-2 div img{
+    width:  80%;
+    /* opacity: 0.4; */
+}
+
+.heaven-page-left-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 5%;
+    color: #333;
+}
+.heaven-page-left-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 24%;
+    line-height: 65px;
+}
+
+.heaven-page-left-content h1{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 7%;
+    line-height: 60px;
+}
+.heaven-page-left-content h2 span{
+    color:#fcc22d
+}
+.heaven-page-left-content div{
+    height: 0.7vh;
+    width: 8vw;
+    border-radius: 15px;
+    background-color: #f56a42;
+    margin-top: 7%;
+}
+.heaven-page-left-content p{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* font-weight: 700; */
+    margin-top: 4%;
+    line-height: 30px;
+}
+.heaven-page-left-content a{
+    height: 9vh;
+    width: 12vw;
+    background-color: #fcc22d;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Baloo 2";
+}

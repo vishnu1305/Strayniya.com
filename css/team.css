@@ -1,0 +1,128 @@
+.team-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latestblogbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#latest-blog-box {
+    height: 80vh;
+    background-color: #32374B;
+    width: 15vw;
+    border-radius: 30px;
+}
+
+#latest-blog-image {
+    background-color: #ffff;
+    box-shadow: 11px 9px 55px -33px rgba(0,0,0,0.75);
+    /* box-shadow: ; */
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 30px;
+}
+
+#latest-blog-image img {
+    width: 25vw;
+    height: 50vh;
+    border-top-right-radius: 50px;
+    position: relative;
+    left: -50px;
+}
+
+#latest-blog-content {
+    width: 15vw;
+}
+
+#latest-blog-content h1{
+font-family: 'League Spartan', sans-serif;
+font-size: 40px;
+}
+
+#latest-blog-content p{
+    font-family: 'baloo 2', sans-serif;;
+    font-size: 17px;
+    width: 18vw;
+    }
+
+#latest-blog-content a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+#latest-blog-details {
+    width: 150px;
+    height: 40px;
+    background-color: #32374B;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#latest-blog-details h1 {
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;;
+    font-size: 15px;
+}
+
+#blog-small {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+#blog-small-line {
+    width: 150px;
+    height: 2px;
+    background-color: #F56A42;
+}
+
+/* media design */
+
+#social-media-blog{
+    /* margin-left: 5vw; */
+    margin-top: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -2vw;
+    /* height: 10vh; */
+} 
+
+#social-media-blog div a{
+    height: 4vh;
+    font-size: 15px;
+}
+
+#social-media-blog a:hover {
+    color: #555;
+    /* background-color: #ffffff; */
+  }
+
+
+#social-media-blog  a{
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    line-height: 4;
+    color: #fff;
+    transition: all 0.5s ease;
+    /* border-radius: 50%; */
+    font-size: 24px;
+}

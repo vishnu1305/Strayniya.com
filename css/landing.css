@@ -1,0 +1,98 @@
+.landing-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.landing-page-left{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8vw;
+}
+.landing-page-left h1{
+    font-size: 100px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 67px;
+    line-height: 13vh;
+    letter-spacing: -6px;
+}
+.landing-page-left h2{
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    letter-spacing: 1px;
+}
+.landing-page-left p{
+    font-size: 20px;
+    font-family: 'Baloo 2', sans-serif;
+    position: relative;
+    padding-right: 12.5vw;
+    top: 30px;
+    letter-spacing: 1px;
+}
+
+.landing-page-left-button{
+    height: 20vh;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.landing-page-left-button a:first-child{
+    display: flex;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 25px;
+    background-color: #304055;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.landing-page-left-button a:nth-child(2){
+    display: flex;
+    height: 22vh;
+    position: relative;
+    top: -40%;
+    margin-left: 20px;
+}
+
+.landing-page-left-dog{
+    display: flex;
+}
+.landing-page-left-dog  img{
+    height: 35vh;
+}
+.landing-page-left-dog div{
+    margin-left: 10px;
+}
+.landing-page-left-dog h3{
+    font-family: "Baloo 2";
+    position: relative;
+    font-size: 25px;
+    top: 30%;
+}
+.landing-page-left-dog p{
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    top: 27%;
+    width: 25vw;
+}
+
+.landing-page-right{
+    height: inherit;
+    width: 60%;
+    background-image: url("../images/main_background.svg");
+    background-size: 90%;
+    background-position-x: 30px;
+    background-repeat: no-repeat;
+}

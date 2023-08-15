@@ -1,0 +1,8 @@
+.footer-page{
+    height: 60vh;
+    width: 100vw;
+    background-image: url("../designs/footer.jpg");
+    background-size: cover;
+    background-position-y: -50vh;
+    margin-top: 20vh;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=League+Spartan:wght@600&family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+  }
+body{
+    height: 105vh;
+    /* background-image: url("../designs/Home.jpg"); */
+    background-size: cover;
+}
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    /* opacity: 0.5; */
+    display: flex;
+    font-family: 'Baloo 2', cursive;
+}
+
+.nav-logo{
+    height: inherit;
+    width: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo img{
+    height: 80%;
+}
+.nav-buttons{
+    height: inherit;
+    width: 70%;
+    /* background-color:azure; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-buttons a{
+    margin: 15px;
+    color: #444;
+}
+.nav-buttons a:nth-child(1){
+    color:#ff9040
+}
+
+.nav-buttons a:hover{
+    color:#ff9040
+}
+/* .nav-buttons a::after{
+    content: "";
+    height: 0.3vh;
+    border-radius: 20px;
+    width: inherit;
+    background-color: #ff9040;
+    display: flex;
+    visibility: hidden;
+    transition:linear 1s ease-in-out;
+}
+.nav-buttons a:hover::after{
+    visibility: visible;
+    transform: scaleX(1.1);
+} */
+.nav-donate-btn{
+    height: inherit;
+    width: 15%;
+    /* background-color:brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-donate-btn img{
+    margin-top: 5px;
+    height: 16vh;
+}

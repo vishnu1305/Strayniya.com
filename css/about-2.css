@@ -1,0 +1,180 @@
+.what_we_do{
+    height: 98vh;
+    background-color: #FDF9E4;
+}
+.what_we_do_head{
+    height: 20vh;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what_we_do_head .h1{
+    height: inherit;
+    width: 28vw;
+    font-size: 8vh;
+    font-family: "Baloo 2";
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 3vh;
+    margin-left: -20vh;
+}
+
+.what_we_do_head .h2{
+    height: inherit;
+    width: 33vw;
+    font-size: 8vh;
+    font-family: "Baloo 2";
+    display: flex;
+    align-items: center;
+    padding-top: 3vh;
+    color: #FE9A00;
+    padding-left: 2vh;
+}
+
+.what_we_do_paragraph{
+    width: 80vw;
+    display: flex;
+    font-family: "Baloo 2";
+    line-height: 30px;
+    margin-top: -3vh;
+    opacity: 0.7;
+}
+
+.what_we_do_paragraph .paragraph{
+    /* font-size: 4vh; */
+    text-align: center;
+    align-items: center;
+    padding-left: 35vh;
+    font-size: 20px;
+
+}
+
+.what_we_do_body .what_we_do_content{
+    height: 18vh;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8vh;
+    /* padding-left: 3vw; */
+    margin: 5vh;
+}
+
+.what_we_do_content label h1{
+    font-family: "baloo 2";
+}
+.what_we_do_content label p{
+    font-family: "baloo 2";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 5vh; */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    margin-top: 7vh;
+}
+
+.cards  p{
+    width: 18vw;
+}
+
+.what_we_do_img img{
+    height: 15vh;
+    padding-right: 2vh;
+    padding-top: 2.5vh;
+}
+
+.content:hover{
+    cursor: pointer;
+}
+
+.cards:hover{
+    cursor: pointer;
+}
+
+@media (max-width:950px){
+    .what_we_do{
+        height: 165vh;
+        width: 100vw;
+        /* background-color: #FDF955; */
+        background-color: #FDF9E4;
+    }
+    .what_we_do_head{
+        height: 15vh;
+        width: inherit;
+    }
+
+    .what_we_do_head .h1{
+        font-size: 3.5vh;
+        padding-left: 3vh;
+    }
+
+    .what_we_do_head .h2{
+        width: 55vw;
+        font-size: 3.5vh;
+        padding-left: 1vh;
+    }
+
+    .what_we_do_paragraph{
+        width: 95vw;
+    }
+
+    .what_we_do_paragraph .paragraph{
+        font-size: 2.5vh;
+        padding-left:2vh;
+    }
+
+    .what_we_do_body .what_we_do_content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+        padding-left: 2vh;
+    }
+
+    .what_we_do_img img{
+        height: 18vh;
+        padding-top: 0vh;
+    }
+
+    .what_we_do_body{
+        width: 40vw;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20vh;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards  p{
+        width: 50vw;
+        font-size: 2vh;
+    }
+
+    .what_we_do_body .what_we_do_content1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 44vh;
+        padding-left: 0vh;
+    }
+
+    .what_we_do_content1 .what_we_do_img img{
+        padding-left: 4vh;
+        height: 18vh;
+    }
+
+    .what_we_do_educate{
+        padding-top: 2vh;
+    }
+}

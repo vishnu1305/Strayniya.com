@@ -1,0 +1,95 @@
+.partner-page{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("../designs/partner.jpg"); */
+    background-size: cover;
+    display: flex;
+}
+
+.partner-page-left{
+    height: inherit;
+    width: 75%;
+    background-color: #fdf9e4;
+    /* opacity: 0.5; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-end;
+    padding-right: 25vw;
+    border-radius: 20px;
+}
+.partner-page-left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 24%;
+    line-height: 65px;
+    text-align: right;
+}
+/* .partner-page-left h2 span{
+    color:#fcc22d
+} */
+.partner-page-left div{
+    height: 0.7vh;
+    width: 8vw;
+    border-radius: 15px;
+    background-color: #f56a42;
+    margin-top: 4%;
+}
+.partner-page-left p{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* font-weight: 700; */
+    margin-top: 8%;
+    line-height: 30px;
+    text-align: right;
+}
+
+
+.partner-page-left img{
+    width: 33%;
+    margin-top: -5vh;
+}
+
+.partner-page-left .doggo2-content{
+    height: 10vh;
+    width: 14.6vw;
+    display: flex;
+    background-color: #fff;
+    margin-top: -10vh;
+    border-radius: 0px 0px 15px 15px;
+    font-family: "baloo 2";
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 1vh; */
+    /* padding-left: 5px; */
+    line-height: 20px;
+    text-align: center;
+    box-shadow: -1px 8px 35px -13px rgba(0,0,0,0.75);
+}
+
+.partner-page-right{
+    height: inherit;
+    width: 25%;
+    /* background-color:beige; */
+    /* opacity: 0.5; */
+}
+
+.partner-page-right img{
+    width: 35%;
+    position: absolute;
+    right: 12vw;
+    top: 645vh;
+    /* bottom: 10vh; */
+}
+.partner-page-right h2{
+    font-family: 'League Spartan', sans-serif;
+    transform: rotate(-90deg);
+    font-size: 25vh;
+    margin-top: 70vh;
+    margin-left: 20vh;
+    opacity: 0.5;
+}
+
